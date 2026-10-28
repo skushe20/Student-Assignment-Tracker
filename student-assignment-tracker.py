@@ -17,7 +17,7 @@ def add_assignment(assignments):
     deadline = input("Enter Deadline (e.g., 15 Nov): ").strip()
     
     if title == "" or subject == "":
-        print("Error: Title and Subject cannot be blank!")
+        print("Error: Title and Subject deadline cannot be blank!")
         return
         
     assignment = {
