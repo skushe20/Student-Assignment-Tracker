@@ -64,7 +64,7 @@ def update_assignment(assignments):
             if new_deadline:
                 task['deadline'] = new_deadline
                 
-            print("Success: Assignment updated successfully!")
+            print("Success:update completed Assignment updated successfully!")
         else:
             print("Error: Invalid assignment number!")
     except ValueError:
