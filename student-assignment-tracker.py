@@ -83,7 +83,7 @@ def mark_completed(assignments):
             assignments[choice - 1]['status'] = "Completed"
             print(f"Success: '{assignments[choice - 1]['title']}' marked as Completed!")
         else:
-            print("Error: Invalid assignment number!")
+            print("Error: it is Invalid assignment number!")
     except ValueError:
         print("Error: Please enter a valid number!")
 
